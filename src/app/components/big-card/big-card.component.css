@@ -1,0 +1,23 @@
+.big_card_container {
+  margin: 1.8rem 1rem;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.img_big_card img {
+  width: 100%;
+  min-width: 700px;
+}
+
+.title_big_card h2 {
+  color: rgb(241, 241, 241);
+  margin-top: 0.5rem;
+}
+
+.description_big_card p {
+  color: rgb(185, 188, 194);
+  margin-top: 0.5rem;
+}

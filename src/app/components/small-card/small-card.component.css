@@ -1,0 +1,35 @@
+.small_card_container {
+  max-width: 700px;
+  max-height: 130px;
+  display: flex;
+  flex-direction: row;
+  margin: 1.8rem 1rem 0 5rem ;
+  border: 1.5px dotted rgb(241, 241, 241);
+  border-radius: 15px;
+  align-items: center;
+  padding-left: 0.6rem;
+}
+
+.img_small_card {
+  width: 400px;
+  height: 128px;
+}
+
+.img_small_card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.description_small_card p {
+  color:  rgb(241, 241, 241);
+  font-weight: 800;
+  font-size: 500;
+  margin-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+.separador {
+  margin-bottom: 0.5rem;
+}
+
