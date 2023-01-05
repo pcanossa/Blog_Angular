@@ -4,7 +4,7 @@
 
 .menu_title_container h1 {
   color: rgb(241, 241, 241);
-  margin: 0.3rem;
+  margin: 0.1rem;
   font-size: 5rem;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .menu_title_container hr {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   border: 1.5px dotted rgb(241, 241, 241);
   border-radius: 15px;
 }

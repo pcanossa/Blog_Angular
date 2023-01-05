@@ -9,7 +9,8 @@
 
 .img_big_card img {
   width: 100%;
-  min-width: 700px;
+  min-width: 500px;
+  object-fit: cover;
 }
 
 .title_big_card h2 {
