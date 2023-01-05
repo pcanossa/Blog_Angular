@@ -1,14 +1,19 @@
 <div class="content_container">
   <div class="content_cover">
     <div class="content_cover_title">
-      <h1>NOTÍCIA QUENTINHA</h1>
+      <h1>{{contentTitle}}</h1>
     </div>
     <div class="content_cover_img">
-      <img src="https://cdn.pixabay.com/photo/2018/05/31/16/51/beer-3444480_960_720.jpg" alt="">
+      <img [src]=imgCover alt="">
     </div>
   </div>
 
   <div class="content_description">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit natus odio error! Possimus reiciendis atque quidem rem, est animi quam. Sint optio molestiae iusto saepe ab. Magni, id commodi. Culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima soluta, necessitatibus dolore rem a id recusandae enim repellendus laboriosam illum reiciendis, nesciunt cupiditate neque molestiae tempore sint! Ad, vero numquam!Lorem</p>
+      <p>{{contentDescription}}</p>
+  </div>
+  <div class="voltar">
+    <a [routerLink]="['']">
+      << VOLTAR
+    </a>
   </div>
 </div>
