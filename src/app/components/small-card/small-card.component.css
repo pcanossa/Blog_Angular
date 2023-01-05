@@ -3,7 +3,7 @@
   max-height: 130px;
   display: flex;
   flex-direction: row;
-  margin: 1.8rem 1rem 0 5rem ;
+  margin: 1.2rem 1rem 0 1rem ;
   border: 1.5px dotted rgb(241, 241, 241);
   border-radius: 15px;
   align-items: center;
@@ -30,6 +30,6 @@
 }
 
 .separador {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
