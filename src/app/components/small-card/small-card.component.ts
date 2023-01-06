@@ -11,6 +11,8 @@ export class SmallCardComponent implements OnInit {
   linkImg:string ='';
   @Input()
   cardDescription:string ='';
+  @Input()
+  id:string ='0';
 
   constructor() { }
 
